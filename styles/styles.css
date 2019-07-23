@@ -10,6 +10,7 @@ h1 {
     font-family: 'Rajdhani', serif;
     letter-spacing: 32px;
     font-size: 100pt;
+    line-height: 10%;
 }
 
 h2 {
@@ -40,7 +41,7 @@ a {
 }
 
 a.contactButton {
-    transition-duration: 500ms;
+    transition-duration: 150ms;
     transition-timing-function: ease-in-out;
 }
 
