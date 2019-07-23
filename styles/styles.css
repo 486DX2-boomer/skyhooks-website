@@ -1,4 +1,4 @@
-/* colors: darkest grey contact modal #141414; #1d1d1d (dark grey), #363636 (medium dark grey)  */
+/* colors: darkest grey contact modal #141414; #1d1d1d (dark grey), #363636 (medium dark grey), medium blue #363679, light blue #5959a7*/
 
 body {
     background-color: #1d1d1d;
@@ -62,7 +62,8 @@ h6 {
 }
 
 .contactButton:hover {
-    font-size: 180%;
+    /* font-size: 180%; */
+    background-color: #5959a7;
 }
 
 .contact {
@@ -82,10 +83,13 @@ h6 {
     padding-top: 100px;
     overflow: auto;
     visibility: hidden;
+    transition: all 150ms;
+    opacity: 0;
 }
 
 .contactInfoModalShow {
     visibility: visible;
+    opacity: 1;
 }
 
 .contactInfoModalContent {
