@@ -83,6 +83,11 @@ div.contactInfoModal {
     padding-top: 100px;
     overflow: auto;
     transition: all 0.3s ease-in-out;
+    visibility: hidden;
+}
+
+.contactInfoModalShow {
+    visibility: visible;
 }
 
 div.contactInfoModalContent {
@@ -107,6 +112,11 @@ button.closeContactInfoModal {
     font-size: 100%;
     padding: 8px 16px;
     display: inline-block;
+    transition: all 250ms ease-in-out;
+}
+
+.closeContactInfoModal:hover {
+    background-color: #363679;
 }
 
 div.top {
