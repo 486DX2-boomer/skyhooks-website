@@ -4,6 +4,14 @@ body {
     background-color: #1d1d1d;
 }
 
+p {
+    color: white;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 90%;
+}
+
 h1 {
     text-align: center;
     color: white;
@@ -26,6 +34,7 @@ h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    letter-spacing: 4px;
 }
 
 h6 {
@@ -47,4 +56,17 @@ a.contactButton {
 
 a.contactButton:hover {
     font-size: 120%;
+}
+
+div.top {
+    width: 100%;
+    border: 0%;
+    padding-bottom: 1px;
+}
+
+div.center {
+    background-color: #363636;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
 }
