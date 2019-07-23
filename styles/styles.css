@@ -1,4 +1,4 @@
-/* colors: 1d1d1d (dark grey), 363636 (medium dark grey)  */
+/* colors: darkest grey contact modal #141414; #1d1d1d (dark grey), #363636 (medium dark grey)  */
 
 body {
     background-color: #1d1d1d;
@@ -60,9 +60,47 @@ a.contactButton:hover {
     font-size: 180%;
 }
 
+div.contactInfoModal {
+    display: block;
+    position: fixed;
+    z-index: 1; /* this places the modal on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    overflow: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+div.contactInfoModalContent {
+    color: white;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 120%;
+    background-color: #141414;
+    margin: auto;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 80%;
+    height: 80%;
+}
+
+button.closeContactInfoModal {
+    background-color: #363636;
+    border: 1px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
 div.top {
     width: 100%;
-    border: 0%;
+    border: 0;
+    margin: 0;
     padding-bottom: 1px;
 }
 
