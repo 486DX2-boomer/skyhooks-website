@@ -46,6 +46,15 @@ h6 {
     font-weight: 300;
 }
 
+.Skyhooks_logo {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16px;
+}
+
 .contactButton {
     background-color: #363679;
     border: 4px;
@@ -83,7 +92,7 @@ h6 {
     padding-top: 100px;
     overflow: auto;
     visibility: hidden;
-    transition: all 150ms;
+    transition: all 110ms;
     opacity: 0;
 }
 
