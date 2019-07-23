@@ -46,8 +46,7 @@ h6 {
     font-weight: 300;
 }
 
-button.contactButton {
-
+.contactButton {
     background-color: #363679;
     border: 4px;
     color: white;
@@ -62,17 +61,17 @@ button.contactButton {
     font-size: 160%;
 }
 
-button.contactButton:hover {
+.contactButton:hover {
     font-size: 180%;
 }
 
-div.contact {
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div.contactInfoModal {
+.contactInfoModal {
     display: block;
     position: fixed;
     z-index: 1; /* this places the modal on top */
@@ -82,7 +81,6 @@ div.contactInfoModal {
     height: 100%;
     padding-top: 100px;
     overflow: auto;
-    transition: all 0.3s ease-in-out;
     visibility: hidden;
 }
 
@@ -90,7 +88,7 @@ div.contactInfoModal {
     visibility: visible;
 }
 
-div.contactInfoModalContent {
+.contactInfoModalContent {
     color: white;
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -104,7 +102,7 @@ div.contactInfoModalContent {
     height: 80%;
 }
 
-button.closeContactInfoModal {
+.closeContactInfoModal {
     background-color: #363636;
     border: 1px;
     color: white;
@@ -112,21 +110,21 @@ button.closeContactInfoModal {
     font-size: 100%;
     padding: 8px 16px;
     display: inline-block;
-    transition: all 250ms ease-in-out;
+    transition: background-color 250ms;
 }
 
 .closeContactInfoModal:hover {
     background-color: #363679;
 }
 
-div.top {
+.top {
     width: 100%;
     border: 0;
     margin: 0;
     padding-bottom: 1px;
 }
 
-div.center {
+.center {
     background-color: #363636;
     padding-top: 1px;
     padding-bottom: 8px;
