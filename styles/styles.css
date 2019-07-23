@@ -50,12 +50,13 @@ a {
 }
 
 a.contactButton {
-    transition-duration: 150ms;
+    transition-duration: 250ms;
     transition-timing-function: ease-in-out;
+    font-size: 160%;
 }
 
 a.contactButton:hover {
-    font-size: 120%;
+    font-size: 180%;
 }
 
 div.top {
@@ -67,6 +68,5 @@ div.top {
 div.center {
     background-color: #363636;
     padding-top: 1px;
-    padding-bottom: 1px;
-    
+    padding-bottom: 8px;
 }
