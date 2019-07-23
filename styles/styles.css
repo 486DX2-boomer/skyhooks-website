@@ -10,7 +10,6 @@ h1 {
     font-family: 'Rajdhani', serif;
     letter-spacing: 32px;
     font-size: 100pt;
-    line-height: 2px;
 }
 
 h2 {
@@ -19,7 +18,6 @@ h2 {
     font-family: 'Gothic A1', sans-serif;
     font-size: 12 pt;
     letter-spacing: 8px;
-    line-height: 8px;
 }
 
 h3 {
@@ -33,5 +31,19 @@ h6 {
     text-align: center;
     color: white;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+a {
+    color: white;
+}
+
+a.contactButton {
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+a.contactButton:hover {
+    font-size: 120%;
 }
