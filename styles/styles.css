@@ -47,7 +47,7 @@ h6 {
 }
 
 .Skyhooks_logo {
-    max-width: 25%;
+    max-width: 20%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -63,6 +63,7 @@ h6 {
 .contactButton {
     background-color: #363679;
     border: 4px;
+    border-radius: 8px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 100%;
