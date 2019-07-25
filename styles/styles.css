@@ -55,6 +55,16 @@ h6 {
     padding-bottom: 16px;
 }
 
+.endorsement_badges {
+    min-width: 12vh;
+    max-width: 8vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 16px;
+}
+
 .videoLink {
     color: white;
     font-weight: bold;
