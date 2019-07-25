@@ -47,7 +47,8 @@ h6 {
 }
 
 .Skyhooks_logo {
-    max-width: 20%;
+    max-width: 25%;
+    min-width: 25vh;
     height: auto;
     display: block;
     margin-left: auto;
