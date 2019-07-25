@@ -166,8 +166,12 @@ h6 {
     /* clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%); */
 }
 
-#video_desktop {display: block;}
-#video_mobile {display: none;}
+#video_desktop {
+    display: block;
+}
+#video_mobile {
+    display: none;
+}
 @media screen and (max-width:768px) {
     #video_desktop {display:none;}
     #video_mobile {display: block;}
