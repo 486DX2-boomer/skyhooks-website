@@ -124,7 +124,7 @@ h6 {
     text-align: center;
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    font-size: calc(1em + 0.5vh);
+    font-size: calc(1em + 0.8vh);
     background-color: #141414;
     margin: auto;
     padding-top: 1px;
@@ -160,7 +160,9 @@ h6 {
     background-color: #363636;
     padding-top: 1px;
     padding-bottom: 8px;
-    /* font-size: calc(1em + 0.15vh); */
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 1.2em;
     line-height: 1.4em;
 }
 
